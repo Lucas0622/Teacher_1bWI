@@ -59,14 +59,11 @@ if (number % 2 == 1) {
 ---
 
 ## **5. What will be printed by the following code?**
-
 ```js
 let marks = 60;
 
 if (marks >= 90) {
   console.log("A");
-} else if (marks >= 80) {
-  console.log("B");
 } else if (marks >= 70) {
   console.log("C");
 } else if (marks >= 60) {
