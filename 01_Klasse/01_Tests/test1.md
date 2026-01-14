@@ -4,9 +4,10 @@
 ```js
 let sum = 0;
 
-for (let i = 1; i <= 3; i++) {
+for (let i = 4; i <= 6; i++) {
   sum += i;
 }
+sum = sum -1;
 
 console.log(sum);
 
@@ -15,7 +16,7 @@ console.log(sum);
 **2 What will be printed by the following code?**
 
 ```js
-let sum = 0;
+let sum = 5;
 
 for (let i = 1; i <5; i++) {
   sum += 2;
@@ -28,7 +29,7 @@ console.log(sum);
 ```js
 let x = 10;
 
-if (x > 5) {
+if (x > 5 && x<=10) {
   console.log("High");
 }
 
@@ -38,16 +39,14 @@ if (x > 5) {
 ```js
 let number = 7;
 
-if (number % 2 === 0) {
-  console.log("Even");
-} else {
-  console.log("Odd");
-}
+if (number % 3 === 0) {
+  console.log(number);
+} 
 ```
 
 **5 What will be printed?**
 ```js
-let marks = 65;
+let marks = 10;
 
 if (marks >= 90) {
   console.log("A");
@@ -63,17 +62,18 @@ if (marks >= 90) {
 
 ```
 
-**6 Write a Loop that sums all numbers between 5 (inklusive) and 10(inklusive)**
+**6 Write a Loop**
+The loop sums all numbers between 5 (inklusive) and 100(inklusive). Ommit the numbers 50 and 51.
 
 **7 Finish the Code**
 
 
-Wenn der Altersunterschied größer als 50 Jahre ist dann schreibe hin Oma, wenn er zwischen 20 und 49 Jahren ist dann scheibe hin Mama ansonsten Schwester
+Wenn der Geschwindigkeitsunterschied größer als 50 kmh ist dann schreibe hin "Rocket", wenn er zwischen 10 (inkl.) und 20 (inkl.) ist dann schreib "Wow" ansonsten "Sleepy"
 
 ```js
 
-let age1 = 9;
-let age2 = 90;
+let speed1 = 80;
+let speed2 = 90;
 
 
 
