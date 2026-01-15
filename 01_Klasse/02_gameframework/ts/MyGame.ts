@@ -56,3 +56,4 @@ class MyGame extends Game {
 const game = new MyGame();
 const framework = new GameFramework(game, 800, 600);
 framework.start();
+console.log("test");
